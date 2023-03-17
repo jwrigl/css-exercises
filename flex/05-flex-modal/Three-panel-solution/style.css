@@ -75,7 +75,7 @@ button.cancel {
 .midbox {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
 }
 
 .buttons {
@@ -92,8 +92,6 @@ button.cancel {
   font-size: 18px;
 }
 
-
-.headclose {
-  display: flex;
-  justify-content: space-between;
+.close-button {
+  flex: 1 1 100px;
 }
