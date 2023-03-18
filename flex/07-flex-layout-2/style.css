@@ -22,8 +22,64 @@ body {
   box-sizing: border-box;
 }
 
+.cards { 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 16px;
+  row-gap: 16px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.container {
+  display: flex;
+  flex: 1 1 0;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+  padding: 16px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 32px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
 }
