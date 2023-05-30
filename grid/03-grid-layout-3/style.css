@@ -8,13 +8,15 @@
 
   display: grid;
 
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: auto auto auto auto;
   grid-template-areas: 
   "header header"
   "sidebar navbar"
   "sidebar article"
   "footer footer";
+
+  gap: 4px;
 }
 
 .container div {
